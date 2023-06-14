@@ -1,18 +1,15 @@
-<mat-toolbar color="primary">
+<mat-toolbar class="bg-[#eeeee]">
   <button
     mat-icon-button
     class="example-icon"
     aria-label="Example icon-button with menu icon"
+    (click)="outputToOpenSideNav()"
   >
     <mat-icon>menu</mat-icon>
   </button>
-  <span>Portfolio</span>
+  <!-- <span>Portfolio</span> -->
   <div class="flex justify-end w-full">
-    <button
-      mat-icon-button
-      class="example-icon"
-      aria-label="Example icon-button with share icon"
-    >
+    <button mat-icon-button>
       <mat-icon>share</mat-icon>
     </button>
     <button
