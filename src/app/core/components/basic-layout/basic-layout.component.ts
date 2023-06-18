@@ -5,8 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './basic-layout.component.html',
   styleUrls: ['./basic-layout.component.scss'],
 })
-export class BasicLayoutComponent {
-  fillerNav = Array.from({
-    length: 100,
-  }).map((elem, i) => `tab Nav ${elem} `);
-}
+export class BasicLayoutComponent {}
