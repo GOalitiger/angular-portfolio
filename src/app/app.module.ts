@@ -10,12 +10,15 @@ import { SideNavComponent } from './core/components/side-nav/side-nav.component'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './shared/material/material.module';
 import { LayoutModule } from '@angular/cdk/layout';
+import { CustomTableComponent } from './components/custom-table/custom-table.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
     BasicLayoutComponent,
     TopNavComponent,
     SideNavComponent,
+    CustomTableComponent,
   ],
   imports: [
     BrowserModule,
@@ -24,6 +27,8 @@ import { LayoutModule } from '@angular/cdk/layout';
     BrowserAnimationsModule,
     MaterialModule,
     LayoutModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
